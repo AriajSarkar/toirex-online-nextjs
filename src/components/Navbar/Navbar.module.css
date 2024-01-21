@@ -11,7 +11,7 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
@@ -40,6 +40,11 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .menuItems {
+    position: relative;
+    margin-top: 0;
+    left: 4.5rem;
   }
 }
   .menu {
