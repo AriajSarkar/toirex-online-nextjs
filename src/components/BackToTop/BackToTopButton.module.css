@@ -3,16 +3,14 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
-    color: #fff;
     border: none;
-    padding: 10px 15px;
+    padding: 8px 10px;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    outline: none; 
+    outline: none;
   }
 
   .back-to-top-button.visible {
@@ -20,22 +18,29 @@
   }
 
   .back-to-top-button:hover {
-    background-color: #0056b3;
     transform: scale(1.1);
   }
 
-
   @media screen and (hover: none) {
     .back-to-top-button:active {
-      background-color: #0056b3;
-      transform: scale(1.1);
+      transform: scale(1);
     }
   }
 
   @media screen and (max-width: 830px) {
 
-    .back-to-top-button:hover {
-      background-color: #007bff;
-      transform: scale(1);
+    .back-to-top-button {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 0.5rem;
+      border: none;
+      padding: 8px 10px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 15px;
+      transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      outline: none;
     }
   }
