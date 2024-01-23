@@ -27,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
+  margin-bottom: 20rem;
 }
 
 .skill {
@@ -111,6 +112,7 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 0;
   }
 
   .history {
