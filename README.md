@@ -26,13 +26,13 @@ Visit the project's website: [toirex.online](https://www.toirex.online) (subject
     cp .env.example .env.local
     ```
 
-2. Install Packages via yarn.
+2. Install Packages via npm.
 
     ```bash
     npm install
     ```
 
-3. Run the Next.JS Development Server.
+3. Run the React JS Development Server.
 
     ```bash
     npm run dev
