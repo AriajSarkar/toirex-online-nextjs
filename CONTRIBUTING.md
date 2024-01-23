@@ -21,7 +21,7 @@ You can start coding immediately, even if the 🚨 needs approval label ![Needs 
 - Issues from non-core members automatically receive the 🚨 needs approval label ![Needs Approval](https://img.shields.io/badge/needs%20approval-yes-red).
 - We greatly value new feature ideas. To ensure consistency in the product's direction, they undergo review and approval.
 
-## Priorities ![Priority](https://img.shields.io/badge/priority-low-green)
+## Priorities
 
 | Type of Issue                                 | Priority               |
 | --------------------------------------------- | ---------------------- |
