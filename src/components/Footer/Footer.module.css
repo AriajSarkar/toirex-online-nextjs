@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.footer {
+    background-color: var(--color-dark); /* Updated background color */
+    color: var(--color-text);
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container p {
+    margin: 5px 0;
+    font-size: var(--font-size--extra-small); /* Apply custom font size */
+  }
+
+  /* Additional styling for links in the footer */
+  .container a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    font-weight: var(--font-weight-bold);
+  }
+
+  .container a:hover {
+    text-decoration: none;
+  }
