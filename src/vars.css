@@ -10,12 +10,14 @@
   --font-roboto: "Roboto";
 
   /* Sizes */
-    --font-size-large: 80px;
-    --font-size-medium: 40px;
-    --font-size-small: 30px;
-    --font-weight-bold: 700;
-    --font-weight-normal: 400;
-    --letter-spacing-large: 4px;
-    --letter-spacing-medium: 2px;
-    --letter-spacing-small: 1.5px;
+  --font-size-extra-small: 20px;
+  --font-size-small: 30px;
+  --font-size-medium: 40px;
+  --font-size-large: 80px;
+  --font-size-extra-large: 100px;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --letter-spacing-large: 4px;
+  --letter-spacing-medium: 2px;
+  --letter-spacing-small: 1.5px;
 }

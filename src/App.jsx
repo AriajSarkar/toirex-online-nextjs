@@ -5,18 +5,20 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 import BackToTopButton from "./components/BackToTop/BackToTopButton";
 
 function App() {
   return (
     <div className={styles.App}>
+      <BackToTopButton />
       <Navbar />
       <Hero />
       <About />
       <Experience />
       <Projects />
       <Contact />
-      <BackToTopButton />
+      <Footer />
     </div>
   );
 }
